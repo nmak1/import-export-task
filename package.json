@@ -1,0 +1,20 @@
+{
+  "name": "import-export-task",
+  "version": "1.0.0",
+  "description": "Import/Export modules task",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "serve": "npx http-server dist"
+  },
+  "keywords": ["modules", "import", "export"],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
